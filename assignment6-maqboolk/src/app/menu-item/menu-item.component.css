@@ -1,10 +1,12 @@
 .menuItemComponent{
-    color: red;
-    border: 1px dotted red;
+    color: #212529;
+    border: 1px dotted #212529;
+    background-color: #eaf5e9;
     width:fit-content;
 }
 .menuItemComponentData{
-    color: blue;
-    border: 1px dotted blue;
+    color: grey;
+    border: 1px dotted grey;
+    background-color: #eaf5e9;
     width:fit-content;
 }

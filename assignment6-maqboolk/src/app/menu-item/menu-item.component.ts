@@ -7,10 +7,8 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class MenuItemComponent implements OnInit {
 
+  // used for item passed from parent
   @Input() item;
-  // @Input() price: string;
-  // @Input() ingredients: string;
-  // @Input() available: boolean;
 
   constructor() { }
 
