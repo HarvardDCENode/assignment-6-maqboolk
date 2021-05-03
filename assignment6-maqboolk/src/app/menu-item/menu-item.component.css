@@ -1,3 +1,10 @@
-.title{
+.menuItemComponent{
     color: red;
+    border: 1px dotted red;
+    width:fit-content;
+}
+.menuItemComponentData{
+    color: blue;
+    border: 1px dotted blue;
+    width:fit-content;
 }

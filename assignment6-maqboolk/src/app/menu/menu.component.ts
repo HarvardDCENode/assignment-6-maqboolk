@@ -9,14 +9,16 @@ import { MenuService } from '../menu.service';
 })
 export class MenuComponent implements OnInit {
 
-  menu = [];
+  menu = null;
 
   constructor(private menuService: MenuService) {
 
   }
 
   ngOnInit(): void {
-    this.menu = this.menuService.getAllItems();
+    this.menuService.getAllItems().subscribe((apiMenu) => {
+      this.menu = apiMenu;
+    })
   }
 
 }
